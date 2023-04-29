@@ -1,0 +1,8 @@
+prefix=/home/jason/ROSlearning/navigation_experimental/devel
+
+Name: sbpl_recovery
+Description: Description of sbpl_recovery
+Version: 0.4.1
+Cflags: -I/home/jason/ROSlearning/navigation_experimental/src/sbpl_recovery/include
+Libs: -L${prefix}/lib -lsbpl_recovery
+Requires: roscpp nav_core sbpl_lattice_planner pose_follower costmap_2d pluginlib base_local_planner tf2_ros

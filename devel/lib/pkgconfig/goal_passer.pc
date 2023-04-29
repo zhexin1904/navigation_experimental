@@ -1,0 +1,8 @@
+prefix=/home/jason/ROSlearning/navigation_experimental/devel
+
+Name: goal_passer
+Description: Description of goal_passer
+Version: 0.4.1
+Cflags: -I/home/jason/ROSlearning/navigation_experimental/src/goal_passer/include
+Libs: -L${prefix}/lib -lgoal_passer
+Requires: roscpp costmap_2d pluginlib nav_core

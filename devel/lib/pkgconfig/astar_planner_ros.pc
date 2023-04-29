@@ -1,0 +1,8 @@
+prefix=/home/jason/ROSlearning/navigation_experimental/devel
+
+Name: astar_planner_ros
+Description: Description of astar_planner_ros
+Version: 0.0.0
+Cflags: -I/home/jason/ROSlearning/navigation_experimental/src/astar_planner_ros/include
+Libs: -L${prefix}/lib -lastar_planner_ros
+Requires: costmap_2d geometry_msgs nav_core nav_msgs pluginlib roscpp tf2_ros

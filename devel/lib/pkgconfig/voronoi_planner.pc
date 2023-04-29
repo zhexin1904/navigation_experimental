@@ -1,0 +1,8 @@
+prefix=/home/jason/ROSlearning/navigation_experimental/devel
+
+Name: voronoi_planner
+Description: Description of voronoi_planner
+Version: 0.0.0
+Cflags: -I/home/jason/ROSlearning/navigation_experimental/src/voronoi_planner/include
+Libs: -L${prefix}/lib -lvoronoi_planner
+Requires: costmap_2d geometry_msgs nav_core nav_msgs pluginlib roscpp voronoi_layer

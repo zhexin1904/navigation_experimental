@@ -1,0 +1,8 @@
+prefix=/home/jason/ROSlearning/navigation_experimental/devel
+
+Name: pose_base_controller
+Description: Description of pose_base_controller
+Version: 0.4.1
+Cflags: -I/home/jason/ROSlearning/navigation_experimental/src/pose_base_controller/include
+Libs: -L${prefix}/lib 
+Requires: actionlib move_base_msgs nav_msgs roscpp tf2_geometry_msgs tf2_ros geometry_msgs

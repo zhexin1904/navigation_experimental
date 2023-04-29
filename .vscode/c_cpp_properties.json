@@ -1,0 +1,32 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/jason/ROSlearning/navigation_experimental/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/jason/ROSlearning/navigation_experimental/src/assisted_teleop/include/**",
+        "/home/jason/ROSlearning/navigation_experimental/src/astar_planner_ros/include/**",
+        "/home/jason/ROSlearning/navigation_experimental/src/goal_passer/include/**",
+        "/home/jason/ROSlearning/navigation_experimental/src/lattice_path_planner/include/**",
+        "/home/jason/ROSlearning/navigation_experimental/src/pose_base_controller/include/**",
+        "/home/jason/ROSlearning/navigation_experimental/src/pose_follower/include/**",
+        "/home/jason/ROSlearning/navigation_experimental/src/sbpl_lattice_planner/include/**",
+        "/home/jason/ROSlearning/navigation_experimental/src/sbpl_recovery/include/**",
+        "/home/jason/ROSlearning/navigation_experimental/src/twist_recovery/include/**",
+        "/home/jason/ROSlearning/navigation_experimental/src/voronoi_layer/include/**",
+        "/home/jason/ROSlearning/navigation_experimental/src/voronoi_planner/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
